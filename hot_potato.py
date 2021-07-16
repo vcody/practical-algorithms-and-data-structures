@@ -14,5 +14,5 @@ def hot_potato(names, num):
     
     return queue.pop()
 
-people = ['Cody', 'Donna', 'Betty', 'Kelley', 'Chris', 'Shareca']
-print(hot_potato(people, 9)) # => 'Donna'
+people = ['Cody', 'Bill', 'Brad', 'Donovan', 'Andy']
+print(hot_potato(people, 9))

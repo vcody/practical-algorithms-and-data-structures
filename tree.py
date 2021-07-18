@@ -95,3 +95,22 @@ print(root) # [3, [9, [4, [], []], []], [7, [], [6, [], []]]]
 insert_left(left, 11)
 print(root) # ...
 print(get_right_child(get_right_child(root))) # [6, [], []]
+
+# Map representation
+map_tree = {
+    'val': 'A',
+    'left': {
+        'val': 'B',
+        'left': {'val': 'D'},
+        'right': {'val': 'E'}
+    },
+    'right': {
+        'val': 'C',
+        'right': {'val': 'F'}
+    }
+}
+
+print(map_tree['val'])
+
+
+
